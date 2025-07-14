@@ -2,7 +2,7 @@
 
 <!-- GitHub badges -->
 
-![demo](.github/README_ASSETS/3d-portfolio.png)
+![demo]()
 
 ## 🌐 Live Demo
 
