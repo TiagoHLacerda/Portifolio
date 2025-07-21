@@ -160,16 +160,14 @@ const experiences: TExperience[] = [
 
 const testimonials: TTestimonial[] = [
   {
-    testimonial:
-      'Tiago is an excellent problem solver and team player. His contributions to system automation improved our workflow efficiency significantly.',
+    testimonial: 'Under Construction',
     name: 'Manager',
     designation: 'Operations',
     company: 'COFCO International',
     image: '',
   },
   {
-    testimonial:
-      "Tiago delivered high-quality front-end solutions, and his expertise in React.js was key to our project's success.",
+    testimonial: 'Under Construction',
     name: 'Lead Developer',
     designation: 'Software Development',
     company: 'Open It Group',
