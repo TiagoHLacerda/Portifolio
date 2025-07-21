@@ -53,7 +53,7 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: 'Tiago Lacerda - Analista de Dados',
+    title: 'Tiago Lacerda - Data Analyst',
     fullName: 'Tiago Henrique Lacerda',
     email: 'TIAGOLACERDA14287@GMAIL.COM',
   },
