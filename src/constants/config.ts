@@ -53,13 +53,16 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: 'Tiago Henrique Lacerda - Portfolio',
+    title: 'Tiago Lacerda - Analista de Dados',
     fullName: 'Tiago Henrique Lacerda',
-    email: 'tiagolacerda14287@gmail.com',
+    email: 'TIAGOLACERDA14287@GMAIL.COM',
   },
   hero: {
     name: 'Tiago Lacerda',
-    p: ['Aspiring Data Scientist', 'with a background in Web Development and Software Engineering'],
+    p: [
+      'Data Analyst',
+      'Seeking opportunities in Data Engineering, Data Science, or Data Analysis.',
+    ],
   },
   contact: {
     p: 'Get in touch',
@@ -86,9 +89,9 @@ export const config: TConfig = {
     about: {
       p: 'Introduction',
       h2: 'Overview.',
-      content: `I am a software developer with expertise in React.js, TypeScript, and API integration. My background includes experience in web application development, system automation, and data analysis. I have a strong foundation in problem-solving and continuously seek innovative solutions to optimize workflows.
-My professional journey includes roles as an Operations Analyst at COFCO International and a Front-End Developer at Open It Group. I am passionate about building scalable and user-friendly applications while leveraging my analytical skills to enhance system performance.
-Currently, I am expanding my knowledge in Data Science and Machine Learning, exploring how AI can drive innovation and transform industries. I strongly believe that artificial intelligence is shaping the future of humanity, and I am committed to understanding and integrating these technologies into my work to create smarter, data-driven solutions.`,
+      content: `A professional with solid experience in operational data analysis and process optimization, seeking to work in Data Engineering, Data Science, or Data Analysis. I am a recent postgraduate in Data Science and Big Data, with proficiency in Python, SQL, NoSQL, Azure, Machine Learning, and data visualization tools. 
+       I have a proven ability to transform data into strategic insights, build robust pipelines, and develop scalable solutions. My background includes managing coffee operating systems at a multinational company and front-end development with React.js.
+       Currently, I am deepening my knowledge in Software Project Management in the era of sensor data and AI through a new postgraduate program at UFJF.`,
     },
     experience: {
       p: 'What I have done so far',
@@ -97,51 +100,49 @@ Currently, I am expanding my knowledge in Data Science and Machine Learning, exp
         {
           company: 'COFCO International',
           role: 'Operations Analyst (2021 - Present)',
-          details: `Managing coffee operations systems, testing new developments, and analyzing requirements. 
-          Implemented RFiD technology, reducing service time and errors while improving stock control.`,
+          details: `• Management of coffee operating systems, including support for the development team with systemic tests and analysis of functional and non-functional requirements.
+          • Proposed and implemented systemic and operational improvements based on data analysis, aiming to reduce execution time and simplify processes.
+          • Developed custom tools for inventory monitoring and control, reducing the audit error rate to less than 1%.
+          • Installed, configured, and maintained RFID equipment, resulting in zero external maintenance costs.`,
         },
         {
           company: 'Open It Group',
           role: 'Front-End Developer (2021 - Temporary)',
-          details: `Developed responsive dashboards using React.js with API integration and interactive visualizations. 
-          Gained deep expertise in modern front-end frameworks and UI/UX best practices.`,
+          details: `• Development of responsive websites and dashboards using React.js, with API integration.
+          • Created dynamic dashboards displaying detailed information and graphs for data manipulation and visualization.`,
         },
       ],
     },
     education: {
-      p: 'Education',
-      h2: 'Academic Background.',
+      p: 'My',
+      h2: 'Education.',
       content: [
         {
-          degree: 'B.Sc. in Software Engineering',
-          institution: 'Unicesumar (2019-2023)',
-          details: `Graduated with a 90% academic performance. 
-          Final project involved developing a C-based application connected to an AWS-hosted database, receiving top evaluation marks.`,
+          degree: 'Postgraduate in Software Project Management and Data in the AI era',
+          institution: 'UFJF (2025 - 2026)',
+          details: `The course will cover Software Project Management, exploring how new approaches can be used to bring a new vision to managing software projects involving sensor and Artificial Intelligence technologies.`,
         },
         {
           degree: 'Postgraduate in Data Science & Big Data',
-          institution: 'Ongoing (2024 - 2025)',
-          details: `Specializing in machine learning, distributed computing, and AI-driven solutions. 
-          Focused on predictive modeling, NLP, and data pipeline automation.`,
+          institution: 'Puc Minas (2024 - 2025)',
+          details: `Covered key data science techniques, focusing on machine learning, massive and distributed data processing, and computer vision. Topics included: Machine Learning, Deep Learning, NLP, DataOps, MLOps, Data Modeling, ETL/ELT, SQL, and NoSQL.`,
         },
         {
-          degree: 'Postgraduate in Software Project Management in the Age of Sensor Data and AI',
-          institution: 'Ongoing (2025 - 2026)',
-          details: `This course covers the fundamentals of Software Project Management, while also exploring how new approaches can bring a fresh perspective to projects involving sensor and Artificial Intelligence technologies. It is designed to incorporate a new dynamic into the management of modern, data-driven software projects.`,
+          degree: 'B.Sc. in Software Engineering',
+          institution: 'Unicesumar (2019 - 2022)',
+          details: `The course covered the principles of software engineering for the development, operation, and maintenance of high-quality systems. The final project was an application in C integrated with a database hosted on AWS.`,
         },
       ],
     },
     feedbacks: {
       p: 'What others say',
       h2: 'Testimonials.',
-      content: 'Here you can showcase feedbacks from colleagues, clients, or supervisors.',
+      content: 'Under Construction',
     },
     works: {
       p: 'My work',
       h2: 'Projects.',
-      content: `My projects showcase my skills in software development and problem-solving.
-      Each project includes a brief description along with links to code repositories and live demos.
-      I have experience building full-stack applications, responsive dashboards, and automated workflows.`,
+      content: ` Under Construction`,
     },
   },
 };
